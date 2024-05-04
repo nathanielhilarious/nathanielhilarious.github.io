@@ -1,0 +1,84 @@
+body {
+    font-family: 'comic-neue-bold', cursive;
+    background-color: #000;
+    color: #f0f0f0;
+    background-image: url("../image/fire01.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: center;
+}
+
+p {
+    font-size: 1.3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 2.2em;
+    text-shadow: -1px 1px 2px #333333;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: sticky;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rip-back {
+    background-image: url("../image/god.png");
+}
+
+.comic-neue-light {
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.comic-neue-light-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.comic-neue-regular {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comic-neue-regular-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.comic-neue-bold {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.comic-neue-bold-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: italic;
+}
+  
