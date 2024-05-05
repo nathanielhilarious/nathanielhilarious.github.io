@@ -5,6 +5,8 @@ body {
     background-image: url("../image/fire01.gif");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     margin-left: 15vw;
     margin-right: 15vw;
     text-align: center;
@@ -29,11 +31,29 @@ h2 {
     margin: 0 auto;
 }
 
+.empty {
+    display: flex;
+    height: 200px;
+}
+
 .centered-content {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.super {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    max-width: 500px;
+}
+
+.gaming-image {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
 }
 
 .centered {
@@ -44,6 +64,12 @@ h2 {
 
 .rip-back {
     background-image: url("../image/god.png");
+    background-attachment: fixed;
+}
+
+.america-back {
+    background-image: url('../image/rushmore.jpg');
+    background-attachment: fixed;
 }
 
 .comic-neue-light {

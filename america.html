@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathaniel Hilarious</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="image/icon.png" type="image/x-icon">
+</head>
+<body class="america-back">
+    <audio name="america-audio" autoplay>
+        <source src="audio/america.mp3">
+    </audio>
+    <script>
+        document.querySelector('audio').volume=0.5;
+    </script>
+    <div name="header" class="centered-content">
+        <a href="index.html">
+            <img src="image/nh.png">
+        </a>
+        <div id="menu">
+            <h2>Menu</h2>
+            <a href="home.html">Home</a>
+            |
+            <a href="https://www.youtube.com/@NathanielHilariousftDiego">YouTube</a>
+            |
+            <a href="teams.html">Our Gaming Teams</a>
+            |
+            <a href="check.html">Check This Out!</a>
+            |
+            <a href="rip.html">Rest In Peace</a>
+            |
+            <a href="about.html">About Us</a>
+            |
+            <a href="nemesis.html">Our Nemesis</a>
+            |
+            <a href="america.html">America</a>
+        </div>
+    </div>
+    <div name="america" class="centered-content">
+        <h2>
+            America, the Greatest Country on Earth
+        </h2>
+        <img class="gaming-image" src="image/america.jpg">
+        <a href="#" id="playsound">
+            <img class="gaming-image" src="image/eagle.jpg">
+        </a>
+        <audio id="eagle" src="audio/eagle.mp3"></audio>
+        <script>
+            document.addEventListener('DOMContentLoaded',function() {
+                var playsound = document.getElementById('playsound');
+                var eagle = document.getElementById('eagle');
+
+                playsound.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    eagle.play();
+                });
+            });
+        </script>
+    </div>
+</body>
+</html>
